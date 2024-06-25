@@ -75,6 +75,55 @@ Um in macOS die SD-Karte in FAT32 zu formatieren, führe diese Schritte aus:
 
 # Payload Entfernen
 
+1. Stecke die SD-Karte wieder in deinen PC.
+2. Öffne erneut das mset9 Script.
+3. Wähle deine 3DS-Version erneut aus.
+4. Wähle "Remove MSET9 Payload".
+5. Stecke deine SD-Karte wieder in den 3DS.
+
+# Aktiviere "Enable loading external FIRMs and modules" und "Enable Game patching" um Mods zu installieren
+
+1. Halte vor dem Starten die "Select"-Taste gedrückt, um in den "Luma3DS Firmware"-Konfigurationsmodus zu gelangen.
+2. Setze ein Haken bei den Optionen, die in dieser Überschrift genannt sind.
+3. Starte den 3DS anschließend neu.
+
+# Dump DSP Firmware
+
+1. Drücke gleichzeitig "L + Steuerkreuz Unten + Y".
+2. Wähle "Miscellaneous Options".
+3. Wähle dann "Dump DSP Firmware und Nullify User Time Offset".
+
+# Homebrews und zusätzliche Software installieren
+
+1. Halte vor dem Starten des 3DS die "Start"-Taste gedrückt, um in den "GodMode9" zu booten.
+2. Wähle dann die "Home"-Taste.
+3. Wähle "Scripts".
+4. Wähle dann "Finalize (Backup auch automatisch die NAND)".
+5. Drücke nur "A" und anschließend die Tastenkombination, die auf dem unteren Bildschirm angezeigt wird.
+6. Starte deinen 3DS neu.
+7. Öffne "FBI".
+8. Gehe zu "SD".
+9. Gehe dann zu "CIAs".
+10. Wähle "<current directory>".
+11. Wähle "Install and Delete all CIAs".
+
+# Backup der NAND (Manuell)
+
+1. Starte erneut GodMode9 beim Starten des 3DS.
+2. Drücke die "Home"-Taste.
+3. Wähle "Scripts".
+4. Wähle dann "GM9Megascript".
+5. Wähle schließlich "Backup Options".
+6. Wähle "SysNAND".
+7. Schalte den 3DS aus.
+8. Stecke die SD-Karte in deinen PC.
+9. Gehe auf der SD-Karte in den Ordner "gm9" und dann in den Ordner "out".
+10. Speichere die Dateien `.bin`, `.bin.sha` und `.exefs` in einen Backup-Ordner.
+
+
+
+
+
 
 
 
