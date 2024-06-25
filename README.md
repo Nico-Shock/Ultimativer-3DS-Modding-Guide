@@ -45,7 +45,36 @@ Um in macOS die SD-Karte in FAT32 zu formatieren, führe diese Schritte aus:
 1. Stecke die SD-Karte in deinen 3DS und warte, bis die Daten auf die SD-Karte erstellt wurden.
 2. Gehe auf Mii Maker und warte, bis die Daten dafür angelegt wurden, wenn sie nicht schon vorhanden sind.
 3. Gehe auf die Systemeinstellungen, wähle "Allgemeine Einstellungen" aus und gehe dann ganz rechts auf "System-Update" (du müsstest auf v.11.17.0-50 sein; der Buchstabe hinter der Zahl zeigt nur die Region an).4
-4. In den Systemeinstellungen gehe auf Datenverwaltung, dann auf Nintendo 3DS und anschließend auf "Zusatzdaten". Entferne deine SD-Karte und stecke sie in deinen PC (Du solltest deinen 3DS eingeschaltet lassen).
+4. In den Systemeinstellungen gehe auf Datenverwaltung. Entferne deine SD-Karte und stecke sie in deinen PC (Du solltest deinen 3DS eingeschaltet lassen).
 
 # SD Karten Vorbereitung
+
+1. Lade die 3DS Modding Setup Daten aus der "Downloads.txt" Datei herunter und entpacke sie.
+2. Installiere Python von der offiziellen Webseite.
+3. Platziere den "dbs" Ordner im Nintendo 3DS Ordner, in den beiden Unterordnern mit den langen Ziffern, wo sich auch der Ordner "extdata" befindet.
+4. Kopiere alle Daten aus dem "SD" Verzeichnis direkt ins Stammverzeichnis der SD-Karte.
+5. Packe die SD Karte in den 3DS.
+
+# Payload Vorbereiten
+
+1. Gehe auf deinem 3DS in den Systemeinstellungen auf Datenverwaltung (wo wir schon sein müssten), wähle "Software" und dann "Zurücksetzen" (deine Daten werden nicht gelöscht).
+2. Entferne danach deine SD-Karte und stecke sie in deinen PC.
+
+# Payload einfügen
+
+1. Öffne die Datei "mset9.bat" (in Windows), "mset9.py" (in Windows und Linux) oder "mset9.command" (in macOS).
+2. Wähle im Script aus, ob du einen New 3DS oder Old 3DS hast.
+3. Wähle dann "Inject MSET9 Payload".
+4. Stecke die SD-Karte wieder in den 3DS ein (lass den 3DS eingeschaltet).
+
+# Payload laden
+
+1. Gehe auf dem 3DS in die Datenverwaltung und wähle "Zusatzdaten".
+2. Gebe die oben angezeigte Tastenkombination ein.
+3. Nachdem der 3DS neu gestartet ist, schalte ihn aus.
+
+# Payload Entfernen
+
+
+
 
