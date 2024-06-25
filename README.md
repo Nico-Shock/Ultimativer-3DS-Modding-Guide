@@ -32,9 +32,9 @@ Um die SD-Karte in Linux zu formatieren, führe diese Schritte aus:
    ```bash
    sudo mkfs.vfat -F 32 /dev/disk1
 
-## macOS:
+## MacOS:
 
-Um in macOS die SD-Karte in FAT32 zu formatieren, führe diese Schritte aus:
+Um in MacOS die SD-Karte in FAT32 zu formatieren, führe diese Schritte aus:
 
 1. Öffne das Terminal und schreibe `diskutil list`, um die Infos für die Disk zu bekommen.
 2. Unmounte die SD-Karte zuerst mit `diskutil unmountDisk /dev/disk1` (ersetze `disk1` durch den tatsächlichen Namen der SD-Karte).
@@ -119,10 +119,6 @@ Um in macOS die SD-Karte in FAT32 zu formatieren, führe diese Schritte aus:
 8. Stecke die SD-Karte in deinen PC.
 9. Gehe auf der SD-Karte in den Ordner "gm9" und dann in den Ordner "out".
 10. Speichere die Dateien `.bin`, `.bin.sha` und `.exefs` in einen Backup-Ordner.
-
-
-
-
 
 
 
