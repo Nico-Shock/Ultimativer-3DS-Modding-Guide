@@ -32,7 +32,7 @@ Um die SD-Karte in Linux zu formatieren, führe diese Schritte aus:
    ```bash
    sudo mkfs.vfat -F 32 /dev/disk1
 
-   ## MacOS:
+## MacOS:
 
 Um in Macos die sd karte in fat32 zu formatieren nutze führe diese schrite aus:
 
