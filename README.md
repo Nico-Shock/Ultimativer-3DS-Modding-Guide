@@ -102,7 +102,7 @@ Um in MacOS die SD-Karte in FAT32 zu formatieren, führe diese Schritte aus:
 7. Öffne "FBI".
 8. Gehe zu "SD".
 9. Gehe dann zu "cias".
-10. Wähle "<current directory>".
+10. Wähle "current directory".
 11. Wähle "Install and Delete all CIAs".
 
 # Backup der NAND (Manuell)
