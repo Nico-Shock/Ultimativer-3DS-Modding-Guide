@@ -89,7 +89,7 @@ Um in MacOS die SD-Karte in FAT32 zu formatieren, führe diese Schritte aus:
 
 1. Drücke gleichzeitig "L + Steuerkreuz Unten + Y".
 2. Wähle `Miscellaneous Options`.
-3. Wähle dann `Dump DSP Firmware und Nullify User Time Offset`.
+3. Wähle dann `Dump DSP Firmware` und `Nullify User Time Offset`.
 
 # Homebrews und zusätzliche Software installieren
 
