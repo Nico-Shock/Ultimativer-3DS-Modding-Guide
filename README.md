@@ -4,10 +4,10 @@ Du benötigst eine SD-Karte mit mindestens 2 GB Speicherplatz. Optimalerweise so
 
 ## Windows:
 
-Um die SD-Karte auf "Fat32" zu formatieren, führe die folgenden Schritte aus:
+Um die SD-Karte auf `Fat32` zu formatieren, führe die folgenden Schritte aus:
 
-1. Rechtsklicke auf die SD-Karte und wähle "Formatieren".
-2. Wähle als Dateisystem "Fat32" aus und klicke auf "Formatieren". 
+1. Rechtsklicke auf die SD-Karte und wähle `Formatieren`.
+2. Wähle als Dateisystem "Fat32" aus und klicke auf `Formatieren`. 
    
    **Hinweis:** Wenn "Fat32" nicht als Option angezeigt wird, öffne die Eingabeaufforderung (cmd) als Administrator und führe die folgenden Befehle aus:
 
@@ -60,7 +60,7 @@ Um in MacOS die SD-Karte in FAT32 zu formatieren, führe diese Schritte aus:
 
 # Payload einfügen
 
-1. Öffne die Datei "mset9.bat" (in Windows), "mset9.py" (in Windows und Linux) oder "mset9.command" (in macOS).
+1. Öffne die Datei `mset9.bat` (in Windows), `mset9.py` (in Windows und Linux) oder `mset9.command` (in macOS).
 2. Wähle im Script aus, ob du einen New 3DS oder Old 3DS hast.
 3. Wähle dann "Inject MSET9 Payload".
 4. Stecke die SD-Karte wieder in den 3DS ein (lass den 3DS eingeschaltet).
