@@ -36,7 +36,7 @@ Um die SD-Karte in Linux zu formatieren, führe diese Schritte aus:
 
 Um in Macos die sd karte in fat32 zu formatieren nutze führe diese schrite aus:
 
-1. öffne das terminal und schriebe "diskutil list" um die infos frü die disk zu bekommen
-2. unmounte die sd karte zuerst mit "diskutil unmountDisk /dev/disk1" (ersetze "disk1" durch den tatsächlichen namen der sd karte)
-3. führe dann den script aus um die sd karte in fat32 zu formatieren "diskutil eraseDisk FAT32 namedersdkarte MBRFormat /dev/disk1"
+1. öffne das terminal und schriebe `diskutil list` um die infos frü die disk zu bekommen
+2. unmounte die sd karte zuerst mit `diskutil unmountDisk /dev/disk1` (ersetze "disk1" durch den tatsächlichen namen der sd karte)
+3. führe dann den script aus um die sd karte in fat32 zu formatieren `diskutil eraseDisk FAT32 namedersdkarte MBRFormat /dev/disk1`
 
