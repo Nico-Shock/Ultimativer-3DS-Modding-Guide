@@ -125,7 +125,7 @@ Um in MacOS die SD-Karte in FAT32 zu formatieren, führe diese Schritte aus:
 7. Schalte den 3DS aus.
 8. Stecke die SD-Karte in deinen PC.
 9. Gehe auf der SD-Karte in den Ordner "gm9" und dann in den Ordner "out".
-10. Speichere die Dateien `.bin`, `.bin.sha` und `.exefs` in einen Backup-Ordner.
+10. Speichere die Dateien (mit der endung) `.bin`, `.bin.sha` und `.exefs` in einen Backup-Ordner.
 
 
 
