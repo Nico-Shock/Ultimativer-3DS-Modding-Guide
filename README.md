@@ -105,7 +105,7 @@ Um in MacOS die SD-Karte in FAT32 zu formatieren, führe diese Schritte aus:
 1. Halte vor dem Starten des 3DS die "Start"-Taste gedrückt, um in den "GodMode9" zu booten.
 2. Wähle dann die "Home"-Taste.
 3. Wähle `Scripts`.
-4. Wähle dann `Finalize` (Backup auch automatisch die NAND).
+4. Wähle dann `Finalize` (Backupt auch automatisch die NAND).
 5. Drücke nur "A" und anschließend die Tastenkombination, die auf dem unteren Bildschirm angezeigt wird.
 6. Starte deinen 3DS neu.
 7. Öffne "FBI".
