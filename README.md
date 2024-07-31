@@ -110,6 +110,14 @@ Ich werde versuchen, irgendwann meinen 3DS richtig zu capturen, um Bilder hinzuz
 9. Gehe auf der SD-Karte in den Ordner "gm9" und dann in den Ordner "out".
 10. Speichere die Dateien (mit der endung) `.bin`, `.bin.sha` und `.exefs` in einen Backup-Ordner.
 
+# CFW (Luma3DS wieder deinstallieren)
+
+1. Starte GM9 (Godmode9), indem du beim Starten die "Start" Taste gedrückt hältst. Wähle dann "GM9-Megascript" oder drücke im Godmode9 die "Home" Taste.
+2. Wähle "Scripts" und dann "GM9Mega Script".
+3. Gehe zu "Hax options".
+4. Wähle "Uninstall Hax".
+5. Gehe dann immer weiter und gib die benötigten Tastenkombinationen ein.
+
 
 
 
