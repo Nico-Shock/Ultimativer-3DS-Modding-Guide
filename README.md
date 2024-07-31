@@ -11,41 +11,24 @@ Ich werde versuchen, irgendwann meinen 3DS richtig zu capturen, um Bilder hinzuz
 
 # SD Karten Vorbereitung
 
-## Windows:
+## Windows
 
-Um die SD-Karte auf `Fat32` zu formatieren, führe die folgenden Schritte aus:
+1. Ladet euch [Fat32 Format](http://ridgecrop.co.uk/index.htm?guiformat.htm) herunter.
+2. Startet die "guiformat.exe".
+3. Wählt eure SD-Karte aus (z.B. "D:").
+4. Falls eure SD-Karte 32 GB oder mehr hat, wählt "32768" bei "allocated unit size" aus, damit der 3DS die SD-Karte erkennen kann. (Manche SD-Karten, insbesondere ältere, könnten trotzdem nicht erkannt werden, wenn sie größer als 32 GB sind.)
 
-1. Rechtsklicke auf die SD-Karte und wähle `Formatieren`.
-2. Wähle als Dateisystem `Fat32` aus und klicke auf `Formatieren`. 
-   
-   **Hinweis:** Wenn "Fat32" nicht als Option angezeigt wird, öffne die Eingabeaufforderung (cmd) als Administrator und führe die folgenden Befehle aus:
+## MacOS
 
-   ```sh
-   diskpart
-   list disk
-   sel disk 2   // Wähle die Nummer der SD-Karte, z.B. Disk 2
-   format fs=fat32 quick
+1. Startet das "Festplattendienstprogramm".
+2. Rechtsklickt auf die SD-Karte und wählt dann "Löschen" aus. Formatiert sie als Fat32 (es wird eventuell als "MS-DOS-Dateisystem" angezeigt).
+3. Wählt anschließend "Löschen".
 
-Falls du eine SD-Karte hast, die größer als 32 GB ist und dein 3DS sie nicht erkennt, lade das Programm "Fat32 Format" herunter (von beliebiger Quelle). Wähle deine SD-Karte aus und setze die Größe auf 32768, um sie auf 32 GB zu begrenzen.
+## Linux
 
-## Linux:
-
-Um die SD-Karte in Linux zu formatieren, führe diese Schritte aus:
-
-1. Öffne das Terminal und führe `lsblk` aus, um die Disk-Informationen zu erhalten.
-2. Wähle die SD-Karte aus, indem du `sudo fdisk /dev/disk1` eingibst (ersetze `disk1` durch den tatsächlichen Namen der SD-Karte)
-3. Führe diesen Befehl aus, um die Partition in FAT32 zu formatieren:
-
-   ```bash
-   sudo mkfs.vfat -F 32 /dev/disk1
-
-## MacOS:
-
-Um in MacOS die SD-Karte in FAT32 zu formatieren, führe diese Schritte aus:
-
-1. Öffne das Terminal und schreibe `diskutil list`, um die Infos für die Disk zu bekommen.
-2. Unmounte die SD-Karte zuerst mit `diskutil unmountDisk /dev/disk1` (ersetze `disk1` durch den tatsächlichen Namen der SD-Karte).
-3. Führe dann den Befehl aus, um die SD-Karte in FAT32 zu formatieren: `diskutil eraseDisk FAT32 namedersdkarte MBRFormat /dev/disk1`.
+1. Öffnet die "Disk" App.
+2. Wählt die Festplatte aus, klickt dann auf das Zahnradsymbol oder macht einen Rechtsklick und wählt "Formatieren".
+3. Wählt beim Typ "Fat32" aus (eventuell müsst ihr unter "Other" oder "Weitere" nach Fat32 suchen).
 
 # 3DS Vorbereitung
 
