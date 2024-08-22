@@ -1,4 +1,4 @@
-# **3DS Hacken mit MSET9**
+"# **3DS Hacken mit MSET9**
 
 # Was du brauchst
 
@@ -78,7 +78,7 @@
 6. Wähle `SysNAND`.
 7. Schalte den 3DS aus.
 8. Stecke die SD Karte in deinen PC.
-9. Gehe auf der SD Karte in den Ordner "gm9" und dann in den Ordner "out".
+9. Gehe auf der SD Karte in den Ordner `gm9` und dann in den Ordner `out`.
 10. Speichere die Dateien (mit der endung) `.bin`, `.bin.sha` und `.exefs` in einen Backup Ordner.
 
 # Aktiviere "Enable loading external FIRMs and modules" und "Enable Game patching"
