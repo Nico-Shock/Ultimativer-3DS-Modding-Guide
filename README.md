@@ -34,7 +34,7 @@
 
 # SD Karten Setup
 
-1. Lade die 3DS Modding Setup Daten (MSET9) vom (3DS-Nitro-Pack)[https://github.com/Nico-Shock/3DS-Nitro-Pack] herunter und entpacke sie.
+1. Lade die 3DS Modding Setup Daten (MSET9) vom (https://github.com/Nico-Shock/3DS-Nitro-Pack)[3DS-Nitro-Pack] herunter und entpacke sie.
 2. Installiere Python von der offiziellen Webseite.
 3. Platziere den `dbs` Ordner im Nintendo 3DS Ordner, in den beiden Unterordnern mit den langen Ziffern, wo sich auch der Ordner "extdata" befindet.
 4. Kopiere alle Daten aus dem `SD` Verzeichnis direkt ins Stammverzeichnis der SD Karte.
