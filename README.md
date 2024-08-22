@@ -1,6 +1,6 @@
 # Was du brauchst
 
-1. Du benötigst eine SD Karte mit mindestens 2 GB Speicherplatz. Optimalerweise sollte sie mehr als 2 GB haben, am besten 32 GB.
+1. Eine SD Karte mit mindestens 2 GB Speicherplatz. Optimalerweise sollte sie mehr als 2 GB haben, am besten 32 GB.
 2. Einen 3DS oder 2DS, egal ob Old, New, XL oder normal.
 3. Einen PC, Laptop oder ähnliches, um Daten auf der SD Karte zu ändern oder hinzuzufügen.
 
