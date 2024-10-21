@@ -1,5 +1,9 @@
 # **3DS Hacken mit MSET9**
 
+# Bitte nutzt [diesen](https://3ds.hacks.guide/get-started.html) Guide hier, weil ich kein Bock mehr habe, an diesem Tutorial weiterzuarbeiten. Und trotzdem bitte nutzt das [3DS-Nitro-Pack](https://github.com/Nico-Shock/3DS-Nitro-Pack), statt sich manuell die Daten runterladen zu müssen.
+
+
+
 # Was du brauchst
 
 1. Eine SD Karte mit mindestens 2 GB Speicherplatz. Optimalerweise sollte sie mehr als 2 GB haben, am besten 32 GB.
